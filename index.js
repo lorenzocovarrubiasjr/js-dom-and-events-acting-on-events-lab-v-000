@@ -24,7 +24,7 @@ function addNewLiOnClick() {
     addNewElementAsLi();
     const doc = document.querySelector('form input')
     clear = doc => doc.value = '';
-    clear;
+    clear();
   })
 };
 
