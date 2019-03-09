@@ -14,7 +14,7 @@ function retrieveEmployeeInformation() {
 function addNewElementAsLi() {
   const element = document.createElement("LI");
   const value = document.createTextNode(retrieveEmployeeInformation());
-  element.appendChild(value);
+  element.append(value);
   document.querySelector('.employee-list').appendChild(element);
 };
 
